@@ -1,0 +1,8 @@
+Host default 
+HostName 1 
+User root 
+Port 22 
+PubkeyAuthentication yes 
+IdentityFile=./key/key.txt 
+UserKnownHostsFile=./known_hosts  
+StrictHostKeyChecking=no 
